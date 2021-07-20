@@ -17,6 +17,7 @@ main package
 ### Dataset
 - Source doamin: download from [Endovis17](https://endovissub2017-roboticinstrumentsegmentation.grand-challenge.org)
 - Target domain: download from [Endovis18](https://endovissub2018-roboticscenesegmentation.grand-challenge.org/home/); [instrument type annotations](https://github.com/BCV-Uniandes/ISINet)
+<<<<<<< HEAD
 - rearrange the file as following:
 .
 ├── endovis17
@@ -37,6 +38,27 @@ main package
 |       ├── seq_1_frame000.png
 |       ├── seq_1_frame001.png
 |       └── ...
+=======
+- rearrange the file as following:  
+├── endovis17  
+|   └── img  
+|       ├── 1_frame000.png  
+|       ├── 1_frame001.png  
+|       └── ...  
+|   └── type_lbl  
+|       ├── 1_frame000.png  
+|       ├── 1_frame001.png  
+|       └── ...  
+├── endovis18  
+|   └── img  
+|       ├── seq_1_frame000.png  
+|       ├── seq_1_frame001.png  
+|       └── ...  
+|   └── type_lbl  
+|       ├── seq_1_frame000.png  
+|       ├── seq_1_frame001.png  
+|       └── ...  
+>>>>>>> c2d7c5e7080f61f561a22a7309b849418f6d4b9b
 
 
 ## Usage
